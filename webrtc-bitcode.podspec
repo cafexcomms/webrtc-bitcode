@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Andrew Ryan' => 'aryan@cafex.com' }
-s.source           = { :git => 'https://github.com/cafexcomms/webrtc-bitcode', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/cafexcomms/webrtc-bitcode.git', :tag => s.version.to_s }
 s.vendored_frameworks = 'WebRTC.framework'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
