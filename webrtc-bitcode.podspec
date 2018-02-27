@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    Prebuilt WebRTC iOS Dynamic Framework with bitcode enabled
                        DESC
 
-  s.homepage         = 'https://bitbucket.org/cafexcomms/chconference'
+  s.homepage         = 'https://github.com/cafexcomms/webrtc-bitcode'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Andrew Ryan' => 'aryan@cafex.com' }
-s.source           = { :git => 'https://bitbucket.org/cafexcomms/webrtc-bitcode', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/cafexcomms/webrtc-bitcode', :tag => s.version.to_s }
 s.vendored_frameworks = 'WebRTC.framework'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
